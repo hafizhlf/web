@@ -4,30 +4,6 @@
 
 // Make enough space for search panel filters buttons
 .o_control_panel {
-    // There is no media breakpoint for XL upper bound
-    @include media-breakpoint-up(lg) {
-        @media (max-width: 1360px) {
-            .o_cp_top_left,
-            .o_cp_bottom_left {
-                width: 40%;
-            }
-            .o_cp_top_right,
-            .o_cp_bottom_right {
-                width: 60%;
-            }
-        }
-    }
-    // For FULL HD devices
-    @media (min-width: 1900px) {
-        .o_cp_top_left,
-        .o_cp_bottom_left {
-            width: 60%;
-        }
-        .o_cp_top_right,
-        .o_cp_bottom_right {
-            width: 40%;
-        }
-    }
     @include media-breakpoint-only(md) {
         .o_search_options_hide_labels .o_dropdown_title {
             display: none;
