@@ -33,7 +33,6 @@
             "/web_responsive/static/src/components/search_panel/search_panel.scss",
             "/web_responsive/static/src/components/search_panel/search_panel.esm.js",
             "/web_responsive/static/src/components/hotkey/hotkey.scss",
-            "/web_responsive/static/src/legacy/xml/form_buttons.xml",
             "/web_responsive/static/src/components/apps_menu/apps_menu.xml",
             "/web_responsive/static/src/components/control_panel/control_panel.xml",
             "/web_responsive/static/src/components/search_panel/search_panel.xml",
